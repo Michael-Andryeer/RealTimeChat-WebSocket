@@ -1,0 +1,28 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "description": "real time chat application",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Andryeer/RealTimeChat-WebSocket.git"
+  },
+  "author": "Michael Andryeer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Andryeer/RealTimeChat-WebSocket/issues"
+  },
+  "homepage": "https://github.com/Michael-Andryeer/RealTimeChat-WebSocket#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

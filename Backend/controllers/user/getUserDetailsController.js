@@ -1,4 +1,4 @@
-import { getUserById } from "../../services/user/userService.js";
+import { getUserById } from "../../services/user/getUserDetailsService.js";
 
 
 export const getUserProfile = async (req, res) => {

@@ -1,4 +1,3 @@
-import { getUserById } from "../../services/user/getUserDetailsService.js";
 import { getAllUsersService } from "../../services/user/getAllUsersService.js";
 
 export const getAllUsersController = async (request,response) => {
